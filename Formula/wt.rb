@@ -1,8 +1,8 @@
 class Wt < Formula
   desc "A simple git worktree manager"
   homepage "https://github.com/venables/wt"
-  url "https://github.com/venables/wt/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "699f7292307aa6ee9c0a5c510393b4042f5323046e19fb4335fb372b627fc576"
+  url "https://github.com/venables/wt/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "06ac2210e8ba4380612a1f7bedd1e8ab8298040af52b8181f7c6a9c9b3c737e8"
   license "MIT"
 
   def install
@@ -23,6 +23,6 @@ class Wt < Formula
   end
 
   test do
-    assert_match "wt 0.1.2", shell_output("#{bin}/wt --version")
+    assert_match "wt 0.1.3", shell_output("#{bin}/wt --version")
   end
 end
