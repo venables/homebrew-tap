@@ -10,9 +10,10 @@ brew tap venables/tap
 
 ## Formulas
 
-| Formula | Description |
-|---------|-------------|
-| [wt](https://github.com/venables/wt) | A simple git worktree manager |
+| Formula                                              | Description                                                              |
+| ---------------------------------------------------- | ------------------------------------------------------------------------ |
+| [wt](https://github.com/venables/wt)                 | A simple git worktree manager                                            |
+| [review-prs](https://github.com/venables/review-prs) | Pick open GitHub PRs and fan out parallel reviews into new terminal tabs |
 
 ### Install a formula
 
