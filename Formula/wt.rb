@@ -5,6 +5,8 @@ class Wt < Formula
   sha256 "ea12e6b65d6860546a39bac243fe2172d0d2cf761747b06494bbe4f35990ca6c"
   license "MIT"
 
+  depends_on "gum"
+
   def install
     bin.install "bin/wt"
     (share/"wt").install "share/wt.sh"
