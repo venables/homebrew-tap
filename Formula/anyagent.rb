@@ -5,7 +5,7 @@ class Anyagent < Formula
   # Placeholder sha256: the source repo's bump-tap workflow overwrites url +
   # sha256 on the first v* release. `brew install` fails until that bump lands
   # (use `brew install --HEAD` in the meantime).
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "e8116d35ea34764f13617ff808285d6bb4b355a9e0e9ee10f42c1368a86a4fe2"
   head "https://github.com/venables/anyagent.git", branch: "main"
   license "MIT"
 
